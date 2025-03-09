@@ -6,7 +6,7 @@ from src.utils.config_loader import load_config
 
 class GenreClassifier:
     def __init__(self):
-        self.config = load_config("configs/text_config.yaml")["text_model"]
+        self.config = load_config("configs/base_config.yaml")["text_model"]
         self.encoder = SentenceTransformer(self.config["encoder_path"])
         self.model = tf.keras.models.load_model(self.config["model_path"])
         self.label_encoder = joblib.load(self.config["label_encoder_path"])

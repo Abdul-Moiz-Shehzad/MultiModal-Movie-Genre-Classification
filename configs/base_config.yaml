@@ -1,12 +1,11 @@
-# Shared configurations
-data:
-  raw_data: "data/raw/imdb_four_genre_plots.csv"  # Match your actual filename
-  processed_text: "data/processed/text/"
-  test_size: 0.2
-  random_state: 42
+# Text-specific configurations
+text_model:
+  preprocess_params:
+    return_lst: false
+  model_path: "data/processed/text/final_model"
+  encoder_path: "data/processed/text/mpnet_encoder"
+  label_encoder_path: "data/processed/text/label_encoder.pkl"
+  class_weights: {0:1, 1:2.5, 2:1, 3:1}
 
-preprocessing:
-  text:
-    max_seq_length: 512       # For later transformer models
-    min_word_count: 3         # For Word2Vec
-    nltk_resources: ["punkt", "wordnet", "stopwords"]
+image_model:
+  label_encoder_path: "data/processed/text/label_encoder.pkl"
