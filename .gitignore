@@ -3,3 +3,4 @@ IMDB_four_genre_posters
 data/processed/text/final_model/
 data/processed/text/mpnet_encoder/
 data/processed/text/label_encoder.pkl
+data/processed/images/data.pkl
