@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 from src.data.text.preprocessing import preprocess_text
 from src.utils.config_loader import load_config
 
-class GenreClassifier:
+class TextGenreClassifier:
     def __init__(self):
         self.config = load_config("configs/base_config.yaml")["text_model"]
         self.encoder = SentenceTransformer(self.config["encoder_path"])

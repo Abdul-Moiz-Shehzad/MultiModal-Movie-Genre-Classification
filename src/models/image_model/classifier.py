@@ -5,7 +5,7 @@ import numpy as np
 from src.utils.config_loader import load_config
 from src.data.Images.preprocessing import preprocess_image
 
-class GenreClassifier:
+class ImageGenreClassifier:
     def __init__(self):
         self.config = load_config("configs/base_config.yaml")["image_model"]
         
