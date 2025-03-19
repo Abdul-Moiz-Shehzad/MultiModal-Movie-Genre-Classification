@@ -1,11 +1,11 @@
 # test_predictions.py
-from src.models.text_model.classifier import GenreClassifier
+from src.models.text_model.classifier import TextGenreClassifier
 
 def test_classifier():
     print("\nMovie Genre Classifier Tester")
     print("Type 'exit' to quit\n")
     
-    classifier = GenreClassifier()
+    classifier = TextGenreClassifier()
     
     while True:
         text = input("Enter movie plot description:\n> ")
