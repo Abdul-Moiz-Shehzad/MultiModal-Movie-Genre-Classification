@@ -4,7 +4,7 @@ from nltk.stem import WordNetLemmatizer
 import nltk
 import re
 
-nltk.download(['punkt', 'wordnet', 'stopwords'], quiet=True)
+nltk.download(['wordnet', 'stopwords', 'punkt_tab'], quiet=True)
 WNL = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
 
