@@ -10,5 +10,8 @@ scikit-learn
 sentence-transformers
 imbalanced-learn
 tf-keras
+tensorflow
+opencv-python
 joblib
+python-dotenv
 pytest

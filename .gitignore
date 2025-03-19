@@ -4,3 +4,6 @@ data/processed/text/final_model/
 data/processed/text/mpnet_encoder/
 data/processed/text/label_encoder.pkl
 data/processed/images/data.pkl
+data/processed/images/image_model.h5
+temp
+.env

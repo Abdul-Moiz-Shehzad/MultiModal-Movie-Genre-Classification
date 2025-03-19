@@ -9,3 +9,4 @@ text_model:
 
 image_model:
   label_encoder_path: "data/processed/text/label_encoder.pkl"
+  model_path: "data/processed/images/image_model.h5"
