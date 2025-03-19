@@ -1,7 +1,7 @@
 # Text-specific configurations
 text_model:
   preprocess_params:
-    return_lst: false
+    return_lst: False
   model_path: "data/processed/text/final_model"
   encoder_path: "data/processed/text/mpnet_encoder"
   label_encoder_path: "data/processed/text/label_encoder.pkl"
