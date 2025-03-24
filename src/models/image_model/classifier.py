@@ -1,4 +1,5 @@
 import tensorflow as tf
+import keras
 import joblib
 import cv2
 import numpy as np
@@ -9,7 +10,7 @@ class ImageGenreClassifier:
     def __init__(self):
         self.config = load_config("configs/base_config.yaml")["image_model"]
         
-        self.model = tf.keras.models.load_model(self.config["model_path"])
+        self.model = keras.models.load_model(self.config["model_path"])
         self.label_encoder = joblib.load(self.config["label_encoder_path"])
         
     def predict(self, raw_image: np.ndarray) -> str:
