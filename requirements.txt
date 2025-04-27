@@ -13,4 +13,6 @@ joblib==1.4.2
 python-dotenv
 pytest
 tf-keras
+pyyaml
+flask
 -e .

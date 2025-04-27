@@ -1,0 +1,15 @@
+body {
+    background-color: #f2f5fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.classifier-box {
+    background: #ffffff;
+    max-width: 800px;
+    margin: auto;
+}
+
+img.img-thumbnail {
+    max-width: 300px;
+    margin-top: 10px;
+}
