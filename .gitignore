@@ -7,5 +7,4 @@ data/processed/images/data.pkl
 data/processed/images/image_model.keras
 temp
 static/uploads
-lime_text_explanation.html
 .env
