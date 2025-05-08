@@ -15,4 +15,5 @@ pytest
 tf-keras
 pyyaml
 flask
+lime
 -e .
